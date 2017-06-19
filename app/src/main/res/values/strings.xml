@@ -1,0 +1,32 @@
+<resources>
+    <string name="app_name">Tutor Onaft</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Выход</string>
+    <string name="fio">ФИО:</string>
+    <string name="gender">Пол:</string>
+    <string name="formOA">Форма:</string>
+    <string name="course">Курс:</string>
+    <string name="specialization">Специализация:</string>
+    <string name="book">Зачетка:</string>
+    <string name="studPhone">Телефон</string>
+    <string name="birth">Дата рождения</string>
+    <string name="home">Прописка</string>
+    <string name="living">Место жительства</string>
+    <string name="momName">Мама</string>
+    <string name="momPhone">Телефон мамы</string>
+    <string name="momWork">Работа мамы</string>
+    <string name="dadName">Папа</string>
+    <string name="dadPhone">Телефон папы</string>
+    <string name="dadWork">Работа папы</string>
+
+
+
+
+    <string name="group_item">Моя Группа</string>
+    <string name="event_item">Доска Объявлений</string>
+    <string name="duty_item">Расписание дежурств</string>
+    <string name="orders">Приказы</string>
+</resources>

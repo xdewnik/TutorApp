@@ -1,0 +1,374 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    >
+
+
+    <android.support.design.widget.CoordinatorLayout
+        android:id="@+id/main_content"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="36dp">
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent" android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:paddingTop="10dp"
+            android:paddingBottom="10dp"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:paddingBottom="10dp">
+
+                <TextView
+                    android:textSize="16dp"
+                    android:textStyle="bold"
+                    android:text="@string/fio"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight=".45"
+                    />
+
+                <EditText
+                    android:id="@+id/editName"
+                    android:textSize="16dp"
+                    android:textStyle="bold"
+                    android:layout_width="0dp"
+                    android:layout_weight=".55"
+                    android:layout_height="wrap_content" />
+
+
+
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:paddingTop="10dp"
+                android:paddingBottom="10dp">
+
+                <TextView
+                    android:textSize="16dp"
+                    android:textStyle="bold"
+                    android:text="@string/formOA"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight=".45"/>
+
+                <EditText
+                    android:id="@+id/editformOfAducation"
+                    android:textSize="16dp"
+                    android:textStyle="bold"
+                    android:layout_width="0dp"
+                    android:layout_weight=".55"
+                    android:layout_height="wrap_content" />
+
+
+
+
+
+            </LinearLayout>
+            <LinearLayout
+                android:paddingTop="10dp"
+                android:paddingBottom="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:textSize="16dp"
+                    android:textStyle="bold"
+                    android:text="@string/studPhone"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight=".45"/>
+
+                <EditText
+                    android:id="@+id/editPhone"
+                    android:textSize="16dp"
+                    android:textStyle="bold"
+                    android:layout_width="0dp"
+                    android:layout_weight=".55"
+                    android:layout_height="wrap_content" />
+
+
+
+
+
+            </LinearLayout>
+            <LinearLayout
+                android:paddingTop="10dp"
+                android:paddingBottom="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:textSize="16dp"
+                    android:textStyle="bold"
+                    android:text="@string/birth"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight=".45"/>
+
+                <EditText
+                    android:id="@+id/editBirthday"
+                    android:textSize="16dp"
+                    android:textStyle="bold"
+                    android:layout_width="0dp"
+                    android:layout_weight=".55"
+                    android:layout_height="wrap_content" />
+
+
+
+
+
+            </LinearLayout>
+            <LinearLayout
+                android:paddingTop="10dp"
+                android:paddingBottom="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:textSize="16dp"
+                    android:textStyle="bold"
+                    android:text="@string/home"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight=".45"/>
+
+                <EditText
+                    android:id="@+id/editHome"
+                    android:textSize="16dp"
+                    android:textStyle="bold"
+                    android:layout_width="0dp"
+                    android:layout_weight=".55"
+                    android:layout_height="wrap_content" />
+
+
+
+
+
+            </LinearLayout>
+            <LinearLayout
+                android:paddingTop="10dp"
+                android:paddingBottom="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:textSize="16dp"
+                    android:textStyle="bold"
+                    android:text="@string/living"
+                    android:layout_width="0dp"
+                    android:layout_weight=".45"
+                    android:layout_height="wrap_content" />
+
+                <EditText
+                    android:id="@+id/editLiving"
+                    android:textSize="16dp"
+                    android:textStyle="bold"
+                    android:layout_width="0dp"
+                    android:layout_weight=".55"
+                    android:layout_height="wrap_content" />
+
+
+
+
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:paddingTop="10dp"
+                android:paddingBottom="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:textSize="16dp"
+                    android:textStyle="bold"
+                    android:text="@string/momName"
+                    android:layout_width="0dp"
+                    android:layout_weight=".45"
+                    android:layout_height="wrap_content" />
+
+                <EditText
+                    android:id="@+id/editMom"
+                    android:textSize="16dp"
+                    android:textStyle="bold"
+                    android:layout_width="0dp"
+                    android:layout_weight=".55"
+                    android:layout_height="wrap_content" />
+
+
+
+
+
+            </LinearLayout>
+            <LinearLayout
+                android:paddingTop="10dp"
+                android:paddingBottom="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:textSize="16dp"
+                    android:textStyle="bold"
+                    android:text="@string/momPhone"
+                    android:layout_width="0dp"
+                    android:layout_weight=".45"
+                    android:layout_height="wrap_content" />
+
+                <EditText
+                    android:id="@+id/editMomPhone"
+                    android:textSize="16dp"
+                    android:textStyle="bold"
+                    android:layout_width="0dp"
+                    android:layout_weight=".55"
+                    android:layout_height="wrap_content" />
+
+
+
+
+
+            </LinearLayout>
+            <LinearLayout
+                android:paddingTop="10dp"
+                android:paddingBottom="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:textSize="16dp"
+                    android:textStyle="bold"
+                    android:text="@string/momWork"
+                    android:layout_width="0dp"
+                    android:layout_weight=".45"
+                    android:layout_height="wrap_content" />
+
+                <EditText
+                    android:id="@+id/editMomWork"
+                    android:textSize="16dp"
+                    android:textStyle="bold"
+                    android:layout_width="0dp"
+                    android:layout_weight=".55"
+                    android:layout_height="wrap_content" />
+
+            </LinearLayout>
+            <LinearLayout
+                android:paddingTop="10dp"
+                android:paddingBottom="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:textSize="16dp"
+                    android:textStyle="bold"
+                    android:text="@string/dadName"
+                    android:layout_width="0dp"
+                    android:layout_weight=".45"
+                    android:layout_height="wrap_content" />
+
+                <EditText
+                    android:id="@+id/editdad"
+                    android:textSize="16dp"
+                    android:textStyle="bold"
+                    android:layout_width="0dp"
+                    android:layout_weight=".55"
+                    android:layout_height="wrap_content" />
+
+
+
+
+
+            </LinearLayout>
+            <LinearLayout
+                android:paddingTop="10dp"
+                android:paddingBottom="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:textSize="16dp"
+                    android:textStyle="bold"
+                    android:text="@string/dadPhone"
+                    android:layout_width="0dp"
+                    android:layout_weight=".45"
+                    android:layout_height="wrap_content" />
+
+                <EditText
+                    android:id="@+id/edittdadPhone"
+                    android:textSize="16dp"
+                    android:textStyle="bold"
+                    android:layout_width="0dp"
+                    android:layout_weight=".55"
+                    android:layout_height="wrap_content" />
+
+
+
+
+
+            </LinearLayout>
+            <LinearLayout
+                android:paddingTop="10dp"
+                android:paddingBottom="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:textSize="16dp"
+                    android:textStyle="bold"
+                    android:text="@string/dadWork"
+                    android:layout_width="0dp"
+                    android:layout_weight=".45"
+                    android:layout_height="wrap_content" />
+
+                <EditText
+                    android:id="@+id/edittdadWork"
+                    android:textSize="16dp"
+                    android:textStyle="bold"
+                    android:layout_width="0dp"
+                    android:layout_weight=".55"
+                    android:layout_height="wrap_content" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+</ScrollView>
+        <android.support.design.widget.FloatingActionButton
+            android:id="@+id/changeFAB"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom|end"
+            android:layout_margin="@dimen/fab_margin"
+            app:backgroundTint="@color/colorWhite"
+            app:srcCompat="@android:drawable/ic_menu_save" />
+
+    </android.support.design.widget.CoordinatorLayout>
+</RelativeLayout>
